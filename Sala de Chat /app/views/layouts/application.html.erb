@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Async</title>
+  <%= stylesheet_link_tag :all %>
+  <%= csrf_meta_tag %>
+
+	<script type="text/javascript">
+/*
+    var socket = new WebSocket("ws://localhost:8080/");  
+    socket.onopen = function(){  
+      console.log("onopen");
+    }
+    socket.onmessage = function(msg){  
+      console.log("onmessage");
+    }
+*/
+	</script>
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
